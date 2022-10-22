@@ -1,0 +1,49 @@
+$color-font: rgb(15, 15, 247);
+$font-color-primary:#fff;
+$color-bg-default: #2D5382;
+$color-bg-boxes: #fd3;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav:1.8rem;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $color-bg-default;
+    font-family: $font-default;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h2 {
+    margin-top: 4rem;
+    width: 300px;
+}
+
+header,
+section,
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+#sobre {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+@import "vitrine";
+@import "nav";
+@import "header";
