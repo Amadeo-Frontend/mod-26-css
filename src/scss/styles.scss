@@ -1,21 +1,25 @@
-$color-font: rgb(15, 15, 247);
+$color-font: rgb(19, 86, 242);
 $font-color-primary:#fff;
-$color-bg-default: #2D5382;
+$font-color-secundary:rgb(247, 122, 45);
+$color-bg-default: #220432;
 $color-bg-boxes: #fd3;
 $font-default: Arial, Helvetica, sans-serif;
 $font-size-default: 1.6rem;
-$font-size-nav:1.8rem;
+$font-size-nav:2.2rem;
+
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
-
+   
 body {
     background-color: $color-bg-default;
     font-family: $font-default;
 }
 
 h1 {
+    font-family: 'hintown', sans-serif;
     color: $color-font;
     text-align: center;
     margin-top: 4rem;
@@ -39,11 +43,10 @@ footer {
     margin: 0 auto;
     max-width: 90vw;
 }
-#sobre {
-    background-color: white;
-    border-radius: 1rem;
-}
+
 
 @import "vitrine";
 @import "nav";
 @import "header";
+@import "fonts";
+@import "sobre";

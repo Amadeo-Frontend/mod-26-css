@@ -1,0 +1,22 @@
+#sobre{
+    background-color: none;
+}
+
+article{
+    h1{
+        color: $font-color-secundary;
+        font-size: 3rem;
+        text-align: left;
+    }
+    p{
+        font-size: $font-size-default;
+        color: $font-color-primary;
+        text-align: center;
+    }
+    li{
+        text-align: center;
+        list-style: none;
+        color: cyan;
+        font-size: $font-size-default;
+    }
+}

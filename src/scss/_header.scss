@@ -9,11 +9,13 @@ header
         background-image: url('../assets/images/san-layout-responsivo.jpg');
         background-repeat: no-repeat;
         background-position: top center;
+        border-image: 2px 2px 8px 1px #fff;
         height: 40rem;
         display: flex;
         padding-bottom: 3rem;
         width: 100%;
 
+       
         h1{
             text-align: center;
             width: 100%;
