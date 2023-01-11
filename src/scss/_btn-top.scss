@@ -1,0 +1,17 @@
+#myBtn {
+	position: fixed;
+	bottom: 20px;
+	cursor: pointer;
+	display: none;
+	border: none;
+	border-radius: 80%;
+	background-color: $color-bg-default;
+    right: 25px;
+    z-index: 99;
+}
+
+#myBtn img {
+	width: 25px;
+	height: auto;
+	background-color: $color-bg-default;
+}

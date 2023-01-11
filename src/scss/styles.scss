@@ -1,4 +1,4 @@
-$color-font: rgb(19, 86, 242);
+$color-font: gold;
 $font-color-primary:#fff;
 $font-color-secundary:rgb(247, 122, 45);
 $color-bg-default: #220432;
@@ -29,13 +29,17 @@ h2 {
     margin-top: 4rem;
     width: 300px;
 }
-
+#root,
 header,
 section,
 footer {
     display: block;
     float: left;
     width: 100%;
+}
+.section{
+    padding: 4rem;
+    margin: 0;
 }
 .container {
     display: flex;
@@ -50,3 +54,6 @@ footer {
 @import "header";
 @import "fonts";
 @import "sobre";
+@import "footer";
+@import "hero";
+@import "btn-top";

@@ -1,7 +1,16 @@
+
+.container{
+    h1{
+        color: $font-color-secundary;
+        font-size: 3rem;
+        text-align: left;
+    }
+}
 .vitrine{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
+    
     
     &__item {
         background-color: white;

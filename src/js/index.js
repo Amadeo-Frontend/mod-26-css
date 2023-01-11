@@ -1,17 +1,18 @@
 import '../scss/styles.scss'
-/*import imageLogo from '../assets/images/logo-w.png'
 
-const elemRoot = document.getElementById('root')
-elemRoot.classList.add('container')
+let mybutton = document.getElementById("myBtn");
 
-const elemImageBuilding = new Image()
-elemImageBuilding.src = imageLogo
+window.onscroll = function() {scrollFunction()};
 
-const elemImageNotebook = new Image()
-elemImageNotebook.src = imageNotebook
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-document.querySelector('#logo')
-    .appendChild(elemImageBuilding)
-
-document.querySelector('#notebook')
-    .appendChild(elemImageNotebook)*/
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}

@@ -11,105 +11,125 @@
     <div id="root">
         <header>
             <div class="container">
-                <h2><img src="../src/assets/images/logo-w.png" alt="logo bondevs"></h2>
+                <img src="./assets/images/bondevs.png" alt="logo bondevs">
                 <nav class="nav">
                     <a class="nav__item" href="#sobre">Sobre nós</a>
                     <a class="nav__item" href="#produtos">Produtos</a>
                     <a class="nav__item" href="#contato">Contato</a>
                 </nav>
-                <div class="hero">
-                 <h1>Veja como acelerar a criação do seu negócio</h1>
-                </div>
+                
             </div>
         </header>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__overlay"></div>
+                <div class="hero__video container-fluid w-100">
+                <video
+                playsinline="playsinline"
+                autoplay="autoplay"
+                muted="muted"
+                loop="loop"
+                loading="lazy"
+                class="hero__video"
+                >
+                <source src="./assets/images/video-1.mp4" type="video/mp4" />
+              </video></div>
+                <div>
+                    <h1>Veja como acelerar a criação do seu negócio</h1>
+                </div>
+            </div>
+        </section>
         <section id="sobre">
             <div class="container">
                 
                 <article>
                     <h1>Sobre nós</h1>
                     <p>Somos uma empresa conectada, altamente qualificada em tecnologia, que atua no desenvolvimento personalizado de soluções que melhoram a performance e resultados dos nossos clientes.
-                    
+                        
                         Aumente a produtividade de sua
                         empresa com automação<br>
                         O que os clientes da
                         Bondevs podem esperar?
-                        </p>
+                    </p>
                     <ul>
                         <li>
                             <lord-icon
-                                src="https://cdn.lordicon.com/jvihlqtw.json"
-                                trigger="hover"
-                                colors="primary:#66ee78"
-                                style="width:28px;height:22px">
-                            </lord-icon>Atendimento diferenciado para identificação de necessidades específicas.</li>
+                            src="https://cdn.lordicon.com/jvihlqtw.json"
+                            trigger="hover"
+                            colors="primary:#66ee78"
+                            style="width:28px;height:22px">
+                        </lord-icon>Atendimento diferenciado para identificação de necessidades específicas.</li>
                         
-                            <li>
+                        <li>
                             <lord-icon
-                                src="https://cdn.lordicon.com/jvihlqtw.json"
-                                trigger="hover"
-                                colors="primary:#66ee78"
-                                style="width:28px;height:22px"></lord-icon>Exclusividade em projetos que solucionam problemas e melhoram a produtividade.</li>
-                    </ul>
-                   
-                </article>
-            </div>
-        </section>
-        <section id="produtos">
-            <div class="container">
-                <h1>Catálogo</h1>
-                <div class="vitrine">  
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 1</h3>
-                        <div class="vitrine__img"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 2</h3>
-                        <div class="vitrine__img"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 3</h3>
-                        <div class="vitrine__img"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 4</h3>
-                        <div class="vitrine__img"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
+                            src="https://cdn.lordicon.com/jvihlqtw.json"
+                            trigger="hover"
+                            colors="primary:#66ee78"
+                            style="width:28px;height:22px"></lord-icon>Exclusividade em projetos que solucionam problemas e melhoram a produtividade.</li>
+                        </ul>
+                        
+                    </article>
+                </div>
+            </section>
+            <section id="produtos">
+                <div class="container">
+                    <h1>Catálogo</h1>
+                    <div class="vitrine">  
+                        <div class="vitrine__item">
+                            <h3 class="vitrine__produto">Produto 1</h3>
+                            <div class="vitrine__img"></div>
+                            <p class="vitrine__desc"></p>
+                            <a href="" class="vitrine__button">Ver detalhes</a>
+                        </div>
+                        <div class="vitrine__item">
+                            <h3 class="vitrine__produto">Produto 2</h3>
+                            <div class="vitrine__img"></div>
+                            <p class="vitrine__desc"></p>
+                            <a href="" class="vitrine__button">Ver detalhes</a>
+                        </div>
+                        <div class="vitrine__item">
+                            <h3 class="vitrine__produto">Produto 3</h3>
+                            <div class="vitrine__img"></div>
+                            <p class="vitrine__desc"></p>
+                            <a href="" class="vitrine__button">Ver detalhes</a>
+                        </div>
+                        <div class="vitrine__item">
+                            <h3 class="vitrine__produto">Produto 4</h3>
+                            <div class="vitrine__img"></div>
+                            <p class="vitrine__desc"></p>
+                            <a href="" class="vitrine__button">Ver detalhes</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-        </div>
-    </section>
-    <section id="contato">
-        <div class="container">
-            <h1>Contato</h1>
-            <form class="contato">
-                <input type="text" placeholder="Nome"
-                class="contato__input">
-                <input type="text" placeholder="Email"
-                class="contato__input">
-                <button class="contato__button">Enviar</button>
-            </form>
-        </div>
-    </section>
-    <section>
-        <footer>
-            <div class="container">
-                <p>Bondevs 2022 &COPY; Todos os direitos reservados.</p><br>
-                <small>Desenvolvido por Amadeo Bon</small>
                 
             </div>
-        </footer>
-    </section>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h1>Contato</h1>
+                <form class="contato">
+                    <input type="text" placeholder="Nome"
+                    class="contato__input">
+                    <input type="text" placeholder="Email"
+                    class="contato__input">
+                    <button class="contato__button">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <footer>
+                <div class="container">
+                    <p>Bondevs 2022 &COPY; Todos os direitos reservados.</p><br>
+                    <small>Desenvolvido por Amadeo Bon</small>
+                </div>
+            </footer>
+        </section>
+    </div>
     
-</div>
-<script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./assets/images/topo.png" alt="topo"></button>
+
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <script src="./js/index.js"></script>
+  
 </body>
 </html>
